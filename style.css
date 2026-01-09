@@ -184,3 +184,47 @@ nav .menu a {
     font-weight: 400;
     line-height: 20px;
 }
+
+/* Second Brain Section Styling */
+.second-brain-section {
+    background-color: #ffffff;
+}
+.second-brain-parent {
+    display: flex;
+    gap: 60px;
+    padding: 120px 0;  
+    align-items: center;
+}
+.second-brain-card {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.second-brain-card-top p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 200px;
+    color: #627382;
+}
+.second-brain-card-top h2 {
+    font-size: 48px;
+    font-weight: 700px;
+    color: #001931;
+    margin: 16px 0;
+
+}
+.second-brain-card-bottom-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-bottom: 20px
+}
+.second-brain-card-bottom-parent .second-brain-card-bottom-child {
+    display: flex;
+    gap: 10px;
+}
+.second-brain-card-bottom-child p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+}
