@@ -228,6 +228,8 @@ nav .menu a {
     font-weight: 500;
     color: #001931;
 }
+
+/* Ready to think Section styling */
 .ready-to-think-parent {
     background-color: #F7F6F2;
     /* border: 2px solid red; */
@@ -256,4 +258,51 @@ nav .menu a {
 }
 .ready-to-think-child small {
     color: #627382;
+}
+
+/* Footer Section Styling */
+.footer-section {
+    background-color: #001931;
+    /* padding: 120px 120px 120px 30px; */
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.social-left h2 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.social-icon-parent {
+    display: flex;
+    gap: 10px;
+}
+.social-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: 0.5px solid rgb(21, 7, 87);
+    height: 0;
+
+}
+.copyright-info p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
 }
