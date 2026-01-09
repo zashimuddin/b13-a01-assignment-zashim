@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+body {
+    background-color:#FFFFFF ;
+}
+
+/* common class */
+
+.container {
+    max-width: 1350px;
+    margin: auto;
+}
+.clr-white {
+    color: white;
+}
+.clr-green {
+    color: #30B868;
+}
+
+/* Button styling */
+
+.btn-green {
+    border-radius: 4px;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #469165;
+    color: white;
+    max-width: max-content;
+} 
+.btn-white {
+    border-radius: 1000px;
+    border: none;
+    padding: 8px 34px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    color: #469165;
+    max-width: max-content;
+}
+.btn-trsp {
+    border-radius: 4px;
+    border: 2px solid white;
+    padding: 8px 34px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(216, 215, 215);
+    max-width: max-content;
+} 
+
+
+
+/* header styling */
+header {
+    background-color: orange;
+}
+
+/* nav bar styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    text-decoration: none;
+}
+nav .menu a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Hero section styling */
+.hero-parent {
+    background-image: url(./assets/hero-bg.png);
+}
+.hero-child {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* background-color: #C6E4D6; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.hero-child-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-child-top button {
+    margin-bottom: 16px;
+}
+.hero-child-top h2 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.hero-child-top p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 330px;
+}
+.hero-child-bottom {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
