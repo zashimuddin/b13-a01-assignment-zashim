@@ -192,7 +192,7 @@ nav .menu a {
 .second-brain-parent {
     display: flex;
     gap: 60px;
-    padding: 120px 0;  
+    margin: 120px auto;  
     align-items: center;
 }
 .second-brain-card {
@@ -227,4 +227,33 @@ nav .menu a {
     font-size: 16px;
     font-weight: 500;
     color: #001931;
+}
+.ready-to-think-parent {
+    background-color: #F7F6F2;
+    /* border: 2px solid red; */
+    border-radius: 12px;
+    margin: 120px auto;
+}
+.ready-to-think-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 80px 40px;
+}
+.ready-to-think-child h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    text-align: center;
+}
+.ready-to-think-child p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #001931;
+    text-align: center;
+}
+.ready-to-think-child small {
+    color: #627382;
 }
