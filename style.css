@@ -132,3 +132,55 @@ nav .menu a {
     gap: 16px;
     justify-content: center;
 }
+
+/* Note Section Styling */
+.note-parent {
+    padding-top: 50px;
+}
+.note-parent h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.note-parent p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    text-align: center;
+    margin-bottom: 44px;
+}
+.note-card-parent {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.note-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    align-items: center;
+    padding: 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.192);
+}
+.note-card img {
+    border: 10px solid #F95555;
+    border-radius: 50%;
+    background-color: #F95555;
+    /* padding: 1.5px 2.49px; */
+    width: 32px;
+    height: 32px; 
+}
+.note-card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+.note-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
