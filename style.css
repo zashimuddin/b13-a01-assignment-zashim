@@ -53,7 +53,17 @@ body {
     max-width: max-content;
 } 
 
+/* button hover styling */
 
+.btn-hover-trsp:hover {
+    background-color: rgba(255, 255, 255, 0.082);
+}
+.btn-white-hover:hover {
+    background-color: rgb(230, 229, 229);
+}
+.btn-hover-green:hover {
+    background-color: #30B868;
+}
 
 /* header styling */
 header {
